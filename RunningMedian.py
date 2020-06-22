@@ -1,5 +1,8 @@
-from heapq import heappush, heappop
+#https://leetcode.com/problems/find-median-from-data-stream/
 
+#Leecode 295
+
+from heapq import heappush, heappop
 
 class MedianFinder(object):
 
@@ -39,3 +42,6 @@ class MedianFinder(object):
 # obj = MedianFinder()
 # obj.addNum(num)
 # param_2 = obj.findMedian()
+
+# Time Complexity : O(logn)
+# Space Complexity : O(n)
